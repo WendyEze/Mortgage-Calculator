@@ -1,0 +1,41 @@
+
+h2, #results {
+    text-align: center;
+}
+
+#results {
+    background-color: lightgrey;
+    width: 30%;
+}
+
+table {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+#info, #info1, #info2, #info3, #info4, #info5{
+    height: 40px;
+}
+
+button {
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+#calc {
+    background-color: blue;
+    color: white;
+}
+
+#clearf {
+    background-color: grey;
+    color: white;
+}
+
+#buttons {
+    text-align: center;
+}

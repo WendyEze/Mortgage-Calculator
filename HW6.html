@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   <title>Calculator</title>
+   <meta charset="UTF-8">
+   <meta name="description" content="ENTER DESCRIPTION HERE">
+   <meta name="author" content="Wendy Ezeadikwa">
+   <script src="HW6.js" defer> </script>
+   <link rel ="stylesheet" href="HW6.css">
+</head> 
+
+<body>
+    <h2>Mortgage Calculator</h2>
+
+    <form id= "Calculator" method = "POST">
+
+    <table id="form">
+        <tr>
+          <td id = "info"><b><label>Principal:</label></b></td>
+          <td id = "info1"><input id="principal" name="principal" type="text" size="30"></td>
+        </tr>
+        <tr>
+            <td id = "info2"><b><label>Yearly interest rate:</label></b></td>
+            <td id = "info3"><input id="rate" name="rate" type="text" size="30"></td>
+        </tr>
+        <tr>
+            <td id = "info4"><b><label>Loan term (months):</label></b></td>
+            <td id = "info5"><input id="term" name="term" type="text" size="30"></td>
+        </tr>
+    </table>
+
+    <p id="buttons">
+        <button type="button" id = "calc" onclick="calculate()">Calculate</button>
+        <button type="button" id = "clearf" onclick="clearform()">Clear</button>
+    </p>
+
+    </form>
+    
+    <table id="results">
+        <tr><td>
+        <p>Monthly Payments</p>
+        <p id= "monthly">--</p>
+        <p>Sum of Payments</p>
+        <p id= "sum">--</p>
+        <p>Total Interest Paid</p>
+        <p id= "totalinterest">--</p>
+        </td></tr>
+    </table>
+
+</body>
+</html>
+
+
+  <!-- <button onclick = "calculate()"></button>
+        <button onclick= "clear()"></button> -->
